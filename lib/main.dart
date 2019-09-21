@@ -42,7 +42,7 @@ class _DicePageState extends State<DicePage> {
         children: <Widget>[
           Expanded(
             child: Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.fromLTRB(8.0, 30.0, 8.0, 30.0),
               child: FlatButton(
                   onPressed: () {
                     changeDiceeFace();
@@ -52,7 +52,7 @@ class _DicePageState extends State<DicePage> {
           ),
           Expanded(
             child: Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.fromLTRB(8.0, 30.0, 8.0, 30.0),
               child: FlatButton(
                   onPressed: () {
                     changeDiceeFace();
